@@ -26,10 +26,8 @@ def _clean_number(
         return cleaned
 
 
-# ==================================================
-# RAW LLM OUTPUT (UNTRUSTED)
-# ==================================================
 
+# RAW LLM OUTPUT (UNTRUSTED)
 class RawLLMExtraction(BaseModel):
     """
     Raw extraction coming directly from the LLM.
@@ -80,10 +78,8 @@ class RawLLMExtraction(BaseModel):
         return _clean_number(value)
 
 
-# ==================================================
-# FINAL NORMALIZED OUTPUT (EVALUATED)
-# ==================================================
 
+# FINAL NORMALIZED OUTPUT (EVALUATED)
 class FinalExtraction(BaseModel):
     """
     Final normalized extraction after:
