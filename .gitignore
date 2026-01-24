@@ -1,0 +1,10 @@
+.env
+.vscode
+.venv
+__pycache__/
+*.pyc
+emails_input.json
+port_codes_reference.json
+ground_truth.json
+111-groq.py
+README-given.md
